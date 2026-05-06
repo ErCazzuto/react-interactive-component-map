@@ -21,7 +21,7 @@ export const components: PCComponent[] = [
     name: "AMD Ryzen 7 7800X3D",
     category: "Processore",
     icon: "🧠",
-    color: "from-orange-400 to-red-500",
+    color: "linear-gradient(135deg, #fb923c 0%, #ef4444 100%)",
     description:
       "Si tratta del cervello del PC, con prestazioni elevate e larga cache interna",
     specs: [
@@ -45,7 +45,7 @@ export const components: PCComponent[] = [
     name: "Gigabyte B650 Aorus Elite AX V2",
     category: "Scheda madre",
     icon: "🖥️",
-    color: "from-blue-400 to-indigo-600",
+    color: "linear-gradient(135deg, #60a5fa 0%, #590ee4 100%)",
     description:
       "The Gigabyte B650 Aorus Elite AX V2 is a feature-rich ATX motherboard for AMD's AM5 platform. It includes WiFi 6E, 2.5G LAN, PCIe 5.0 support, and an extensive VRM design for stable overclocking.",
     specs: [
@@ -69,7 +69,7 @@ export const components: PCComponent[] = [
     name: "Gigabyte Radeon RX 7900 XT Gaming OC",
     category: "Scheda grafica",
     icon: "🎮",
-    color: "from-red-400 to-rose-600",
+    color: "linear-gradient(135deg, #f87171 0%, #db2777 100%)",
     description:
       "The Gigabyte Radeon RX 7900 XT Gaming OC is a high-end AMD graphics card featuring the Navi 31 GPU with 20GB of GDDR6 memory. It delivers outstanding 4K gaming performance with ray tracing support.",
     specs: [
@@ -93,7 +93,7 @@ export const components: PCComponent[] = [
     name: "Lexar ARES DDR5 32GB",
     category: "Random Access Memory",
     icon: "💾",
-    color: "from-purple-400 to-violet-600",
+    color: "linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%)",
     description:
       "The Lexar ARES DDR5 is a high-performance RGB memory kit featuring striking heatspreaders and fast DDR5 speeds. The 32GB kit (2×16GB) ensures smooth multitasking and gaming with full XMP 3.0 support.",
     specs: [
@@ -115,7 +115,7 @@ export const components: PCComponent[] = [
     name: "Arctic Liquid Freezer III 360 Black",
     category: "dissipatore CPU",
     icon: "❄️",
-    color: "from-cyan-400 to-sky-600",
+    color: "linear-gradient(135deg, #22d3ee 0%, #0284c7 100%)",
     description:
       "The Arctic Liquid Freezer III 360 is an all-in-one liquid cooler with a 360mm radiator and three 120mm PWM fans. Its high-performance pump and dense fan array keep even the most demanding CPUs cool and quiet.",
     specs: [
@@ -135,7 +135,7 @@ export const components: PCComponent[] = [
     name: "MSI MPG A850G PCIe5 80+ Gold",
     category: "Unità di alimentazione",
     icon: "⚡",
-    color: "from-yellow-400 to-amber-600",
+    color: "linear-gradient(135deg, #facc15 0%, #d97706 100%)",
     description:
       "The MSI MPG A850G is a fully modular ATX 3.0 power supply with an 850W output and 80 Plus Gold certification. It includes a native PCIe 5.0 12VHPWR connector for next-gen GPUs, ensuring clean and reliable power delivery.",
     specs: [
@@ -155,7 +155,7 @@ export const components: PCComponent[] = [
     name: "WD Black SN850X NVMe SSD",
     category: "memoria interna",
     icon: "💿",
-    color: "from-green-400 to-emerald-600",
+    color: "linear-gradient(135deg, #4ade80 0%, #059669 100%)",
     description:
       "The WD Black SN850X is a PCIe Gen 4 NVMe SSD optimized for gaming. With sequential read speeds up to 7,300 MB/s it virtually eliminates load times and DirectStorage compatible for next-gen game streaming.",
     specs: [
@@ -176,7 +176,7 @@ export const components: PCComponent[] = [
     name: "Thermalright TL-C12CS RGB",
     category: "ventole",
     icon: "🌀",
-    color: "from-pink-400 to-fuchsia-600",
+    color: "linear-gradient(135deg, #f472b6 0%, #c026d3 100%)",
     description:
       "The Thermalright TL-C12CS RGB fans deliver exceptional airflow and static pressure performance wrapped in a stunning full-addressable RGB lighting ring. This pack of 6 fans ensures your case stays cool with a beautiful light show.",
     specs: [
@@ -195,7 +195,7 @@ export const components: PCComponent[] = [
     name: "Antec C8",
     category: "case",
     icon: "🖥️",
-    color: "from-slate-400 to-zinc-600",
+    color: "linear-gradient(135deg, #94a3b8 0%, #52525b 100%)",
     description:
       "The Antec C8 is a premium mid-tower case with a full-mesh front panel and tempered glass side panel. Its spacious interior supports up to 420mm radiators, E-ATX motherboards, and long GPUs while maintaining optimal airflow.",
     specs: [

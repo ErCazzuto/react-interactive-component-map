@@ -32,14 +32,14 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
       {component && (
         <>
           {/* Panel header */}
-          <div className={`relative bg-gradient-to-br ${component.color} p-6 overflow-hidden`}>
-            {/* Decorative background blobs */}
-            <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-white/10 blur-2xl pointer-events-none" />
-            <div className="absolute bottom-0 left-0 w-32 h-32 rounded-full bg-black/20 blur-xl pointer-events-none" />
+          <div
+            className="relative overflow-hidden p-6 text-white shadow-2xl shadow-black/40 border-b border-white/10"
+            style={{ backgroundImage: component.color }}
+          >
 
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-lg bg-black/30 hover:bg-black/50 transition-colors text-white/80 hover:text-white"
+              className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-lg bg-black/40 hover:bg-black/60 transition-colors text-white hover:text-white"
               aria-label="Close panel"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -49,7 +49,7 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
 
             <div className="relative z-10">
               <span className="text-4xl mb-3 block">{component.icon}</span>
-              <div className="inline-block px-2 py-0.5 rounded-full bg-black/30 text-white/70 text-xs font-semibold uppercase tracking-widest mb-2">
+              <div className="inline-block px-2 py-0.5 rounded-full bg-white/10 text-white/90 text-xs font-semibold uppercase tracking-widest mb-2">
                 {component.category}
               </div>
               <h2 className="text-xl font-bold text-white leading-snug drop-shadow-sm">
