@@ -63,7 +63,7 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
             {/* Description */}
             <div className="p-6 border-b border-white/8">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-white/40 mb-3">
-                Overview
+                Generalità
               </h3>
               <p className="text-sm text-white/70 leading-relaxed">
                 {component.description}
@@ -73,7 +73,7 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
             {/* Specs */}
             <div className="p-6">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-white/40 mb-4">
-                Specifications
+                Specifiche tecniche
               </h3>
               <div className="space-y-2">
                 {component.specs.map((spec, i) => (
@@ -89,19 +89,6 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
                     </span>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            {/* Performance badge */}
-            <div className="px-6 pb-6">
-              <div className={`rounded-xl bg-gradient-to-r ${component.color} p-4 flex items-center gap-3 opacity-90`}>
-                <div className="w-10 h-10 rounded-lg bg-black/20 flex items-center justify-center flex-shrink-0 text-xl">
-                  {component.icon}
-                </div>
-                <div>
-                  <p className="text-xs text-white/60 uppercase tracking-widest font-semibold">Component Type</p>
-                  <p className="text-sm font-bold text-white">{component.label}</p>
-                </div>
               </div>
             </div>
           </div>
