@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import SidePanel from "./SidePanel";
+import PopUpDescription from "./PopUpDescription";
 import { components, PCComponent } from "../data/components";
+import MediaQuery from 'react-responsive';
 
 export default function PCExplorer() {
   const [selected, setSelected] = useState<PCComponent | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const handleSelect = (comp: PCComponent) => {
     if (selected?.id === comp.id) {
@@ -14,14 +17,39 @@ export default function PCExplorer() {
     }
   };
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // Se il componente non è più visibile e c'è un pannello aperto, chiudilo
+          if (entry.intersectionRatio === 0 && selected) {
+            setSelected(null);
+          }
+        });
+      },
+      {
+        threshold: 0, // Trigger quando non è più visibile
+        rootMargin: "-50px 0px -50px 0px" // Margine per evitare trigger troppo precoce
+      }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current);
+      }
+    };
+  }, [selected]);
+
   return (
-    <div className="relative w-full min-h-screen flex flex-col overflow-hidden bg-[#0b0d14]">
-      <div className="flex flex-1 relative">
+    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black">
+      <div className="flex flex-col justify-center relative">
         {/* Image container */}
         <div
-          className="relative flex-1 flex items-center justify-center overflow-hidden transition-all duration-500 ease-in-out"
-          style={{ marginRight: selected ? "400px" : "0" }}
-        >
+          className="relative flex-1 flex items-center justify-center overflow-hidden transition-all duration-500 ease-in-out">
           {/* Background atmosphere */}
           <div className="absolute inset-0">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-blue-900/10 rounded-full blur-3xl" />
@@ -114,9 +142,15 @@ export default function PCExplorer() {
         </div>
 
         {/* Side Panel */}
-        <SidePanel component={selected} onClose={() => setSelected(null)} />
-      </div>
+        <MediaQuery query="(min-width: 1280px)">
+          <PopUpDescription component={selected} onClose={() => setSelected(null)} />
+        </MediaQuery>
 
+        <MediaQuery query="(max-width: 1280px)">
+          <SidePanel component={selected} onClose={() => setSelected(null)} />
+        </MediaQuery>
+
+      </div>
     </div>
   );
 }

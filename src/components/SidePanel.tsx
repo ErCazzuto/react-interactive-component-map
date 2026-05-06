@@ -21,12 +21,13 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
     <div
       ref={panelRef}
       className={`
-        fixed right-0 top-0 h-full w-[400px] z-30
+        fixed right-6 top-6 bottom-6 w-[400px] z-30
         flex flex-col
-        bg-[#13161f] border-l border-white/10
+        bg-[#13161f] border border-white/10
         shadow-2xl shadow-black/80
-        transition-transform duration-500 ease-in-out
-        ${component ? "translate-x-0" : "translate-x-full"}
+        transition-all duration-500 ease-in-out
+        rounded-2xl overflow-hidden
+        ${component ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}
       `}
     >
       {component && (
