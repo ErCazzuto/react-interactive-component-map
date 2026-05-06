@@ -57,7 +57,7 @@ export default function PCExplorer() {
           </div>
 
           {/* Image wrapper */}
-          <div className="relative w-full max-w-5xl mx-auto select-none px-4 py-6">
+          <div className="relative w-[69%] mx-auto select-none px-4 py-6">
             <img
               src="/pc-components.jpg"
               alt="PC Components Exploded View"
