@@ -21,19 +21,19 @@ return (
     <div
       ref={panelRef}
       className={`
-        relative w-[69%] mx-auto
-        flex flex-col justify-center mx-4 mb-6
+        relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-4x1 mx-auto box-border
+        flex flex-col justify-center px-0 mb-6
         bg-[#13161f] border border-white/10
         shadow-2xl shadow-black/80
         transition-all duration-500 ease-in-out
         rounded-2xl 
         ${component ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}
       `}
-      >
-        {component && (
-        <div >
+    >
+      {component && (
+        <div className="overflow-hidden rounded-2xl">
           <div
-            className="rounded-t-2xl flex justify-between aling-center overflow-hidden p-4 text-white shadow-2xl shadow-black/40 border-b border-white/10"
+            className="rounded-t-2xl flex flex-col sm:flex-row sm:items-center justify-between overflow-hidden p-4 text-white shadow-2xl shadow-black/40 border-b border-white/10"
             style={{ backgroundImage: component.color }}
           >
 
@@ -60,11 +60,11 @@ return (
           </div>
 
           {/* Scrollable content */}
-          <div className="flex flex-row justify-between overflow-y-auto custom-scrollbar">
+          <div className="flex flex-col lg:flex-row gap-6 overflow-hidden custom-scrollbar">
             {/* Description */}
-            <div className="p-6 border-b border-white/8">
+            <div className="flex-1 min-w-0 p-6 border-b border-white/8 lg:border-b-0 lg:border-r lg:border-white/10">
               <h3 className="text-md font-semibold uppercase tracking-widest text-white/40 mb-3">
-                Generalità
+                Generalità e funzione
               </h3>
               <p className="text-md text-white/70 leading-relaxed">
                 {component.description}
@@ -72,7 +72,7 @@ return (
             </div>
 
             {/* Specs */}
-            <div className="min-w-1/3 max-w-2/5 p-6 ml-auto">
+            <div className="w-full lg:w-2/5 min-w-0 p-6">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-white/40 mb-4">
                 Specifiche tecniche
               </h3>

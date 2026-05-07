@@ -45,7 +45,7 @@ export default function PCExplorer() {
   }, [selected]);
 
   return (
-    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black">
+    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-4xl mx-auto">
       <div className="flex flex-col justify-center relative">
         {/* Image container */}
         <div
@@ -57,7 +57,7 @@ export default function PCExplorer() {
           </div>
 
           {/* Image wrapper */}
-          <div className="relative w-[69%] mx-auto select-none px-4 py-6">
+          <div className="relative w-full select-none px-4 py-6">
             <img
               src="/pc-components.jpg"
               alt="PC Components Exploded View"

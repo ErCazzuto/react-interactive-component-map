@@ -32,7 +32,7 @@ export const components: PCComponent[] = [
       { key: "Cache L3", value: "96 MB" },
       { key: "TDP", value: "120W" },
       { key: "Socket", value: "AM5" },
-      { key: "Memorie supportate", value: "DDR5-6000" },
+      { key: "Memorie supportate", value: "DDR5-6000 MT/s" },
     ],
     x: 23,
     y: 8,
@@ -111,7 +111,7 @@ export const components: PCComponent[] = [
   },
   {
     id: "aio",
-    label: "AIO Cooler",
+    label: "Dissipatore AIO",
     name: "Arctic Liquid Freezer III 360 Black",
     category: "dissipatore CPU",
     icon: "❄️",
@@ -172,7 +172,7 @@ export const components: PCComponent[] = [
   },
   {
     id: "fans",
-    label: "Case Fans",
+    label: "Ventole",
     name: "Thermalright TL-C12CS RGB",
     category: "ventole",
     icon: "🌀",

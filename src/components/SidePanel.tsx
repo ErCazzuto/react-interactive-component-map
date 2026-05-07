@@ -64,7 +64,7 @@ export default function SidePanel({ component, onClose }: SidePanelProps) {
             {/* Description */}
             <div className="p-6 border-b border-white/8">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-white/40 mb-3">
-                Generalità
+                Generalità e funzione
               </h3>
               <p className="text-sm text-white/70 leading-relaxed">
                 {component.description}
