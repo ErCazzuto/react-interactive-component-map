@@ -23,8 +23,10 @@ export const components: PCComponent[] = [
     icon: "🧠",
     color: "linear-gradient(135deg, #fb923c 0%, #ef4444 100%)",
     description:
-      "Si tratta del cervello del PC, con prestazioni elevate e larga cache interna",
-    specs: [
+     `Si tratta del cervello del PC, senza di lui... sarebbe tutto un soprammobile.
+      Il Ryzen 7 7800x3d è una vera e propria bestia di processore, prestazioni elevate, larga cache che vanta la tecnologia 3D V-Cache, cioè una cache L3 aggiuntiva impilata verticalmente per ottenere prestazioni eccellenti.
+      Oltretutto, in paragone con la controparte Intel è più efficiente in termini energetici e termici`,  
+      specs: [
       { key: "Architettura", value: "Zen 4 + 3D V-Cache" },
       { key: "Cores / Threads", value: "8C / 16T" },
       { key: "Clock di Base", value: "4.2 GHz" },
