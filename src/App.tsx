@@ -6,7 +6,7 @@ export default function App() {
       {/* Spazio per aggiungere nuove sezioni */}
       <section className="min-h-40 p-8">
         {/* Qui puoi aggiungere caselle di testo e immagini */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold mt-8 mb-20 text-center"> <strong className="text-6xl text-[#4ade80]">L'assemblaggio di un sogno</strong> </h2>
 
           {/* Esempio di casella di testo */}
@@ -22,9 +22,9 @@ export default function App() {
         </div>
       </section>
 
-      {/* Sezione con immagine */}
+      {/* inizio */}
       <section className="p-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="bg-gray-9000 p-6 rounded-lg mb-0">
             <h3 className="text-xl font-semibold mb-0">Scopri i dettagli cliccando su ogni componente!</h3>
             <div className="flex flex-col md:flex-row gap-6">
@@ -48,25 +48,198 @@ export default function App() {
       </section>
 
       
-      {/* Sezione con immagine */}
+      {/* CPU */}
       <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                → CPU <br />
+              </p>
+            </div>
+            <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/cpu.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
               </div>
-              <div className="flex-1">
-                <div className="bg-gray-1000 h-60 rounded-lg flex items-center justify-center">
-                  <img src="/cpu.jpg" alt="Ricerca componenti" className="h-full object-contain" />
-                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GPU */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-full md:w-[40%] lg:w-[40%]">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/gpu.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed p-10 mb-4">
+                → GPU <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* RAM */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                → RAM <br />
+              </p>
+            </div>
+            <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/ram.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* schedamadre */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-full md:w-[40%] lg:w-[40%]">
+              <div className="w-full h-120 overflow-hidden rounded-lg">
+                <img
+                  src="/schedamadre.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed p-10 mb-4">
+                → Scheda Madre <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* case */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                → Case <br />
+              </p>
+            </div>
+            <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
+              <div className="w-full h-120 overflow-hidden rounded-lg">
+                <img
+                  src="/case.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ssd */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-full md:w-[40%] lg:w-[40%]">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/ssd.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed p-10 mb-4">
+                → SSD <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* radiatore */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                → Radiatore <br />
+              </p>
+            </div>
+            <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/radiatore.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* psu */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="w-full md:w-[40%] lg:w-[40%]">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/psu.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed p-10 mb-4">
+                → PSU <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* fans */}
+      <section className="p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                → Fans <br />
+              </p>
+            </div>
+            <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
+              <div className="w-full h-100 overflow-hidden rounded-lg">
+                <img
+                  src="/fans.jpg"
+                  alt="Ricerca componenti"
+                  className="w-6xl pr-1 h-full object-cover"
+                />
               </div>
             </div>
           </div>

@@ -45,7 +45,7 @@ export default function PCExplorer() {
   }, [selected]);
 
   return (
-    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-4xl mx-auto">
+    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-7xl mx-auto">
       <div className="flex flex-col justify-center relative">
         {/* Image container */}
         <div
