@@ -49,7 +49,8 @@ export const components: PCComponent[] = [
     icon: "🖥️",
     color: "linear-gradient(135deg, #60a5fa 0%, #590ee4 100%)",
     description:
-      "The Gigabyte B650 Aorus Elite AX V2 is a feature-rich ATX motherboard for AMD's AM5 platform. It includes WiFi 6E, 2.5G LAN, PCIe 5.0 support, and an extensive VRM design for stable overclocking.",
+      `La scheda madre è la base alla quale tutto il resto si connette, proprio per questo viene chiamato così, gli altri componenti si chiamerebbero "schede figlie".
+       Questa in particolare offre una solidissima base per processori AMD, supporti per memorie veloci, connettività di buon livello e un sistema di dissipazione robusto. `, 
     specs: [
       { key: "Socket", value: "AM5" },
       { key: "Formato", value: "ATX" },
@@ -73,7 +74,9 @@ export const components: PCComponent[] = [
     icon: "🎮",
     color: "linear-gradient(135deg, #f87171 0%, #db2777 100%)",
     description:
-      "The Gigabyte Radeon RX 7900 XT Gaming OC is a high-end AMD graphics card featuring the Navi 31 GPU with 20GB of GDDR6 memory. It delivers outstanding 4K gaming performance with ray tracing support.",
+      `Il componente senza il quale il monitor resterebbe nero, è il cuore pulsante di ogni PC di fascia alta, soprattutto in ambito gaming.
+       La RX 7900 XT è una scheda grafica di fascia alta con una larga memoria VRAM, un'ampia larghezza di banda e un boost clock fino a 2500 MHz, offre prestazioni eccezionali a risoluzioni elevate.
+       Offre un eccellente supporto per le ultime tecnologie come DirectX 12 Ultimate e ray tracing.`,
     specs: [
       { key: "chip", value: "Navi 31 (RDNA 3)" },
       { key: "VRAM", value: "20 GB GDDR6" },
@@ -97,7 +100,8 @@ export const components: PCComponent[] = [
     icon: "💾",
     color: "linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%)",
     description:
-      "The Lexar ARES DDR5 is a high-performance RGB memory kit featuring striking heatspreaders and fast DDR5 speeds. The 32GB kit (2×16GB) ensures smooth multitasking and gaming with full XMP 3.0 support.",
+      `La RAM è la memoria a breve termine del PC, ci vengono caricati tutti i dati dei programmi in esecuzone, la quantità di programmi che si possono tenere aperti, la fluidità del sistema e la velocità dei caricamenti sono proporzionali alla quantità e alla frequenza della RAM.
+       Le Lexar Ares offrono lo "sweet spot": 32 GB di capacità, 6000 MT/s di frequenza, latenza CL30 e il supporto ad alcune tecnologie come EXPO che le rende eccellenti per sistemi basati su CPU AMD.`,
     specs: [
       { key: "tipo", value: "DDR5" },
       { key: "capacità", value: "32 GB (2×16 GB)" },
@@ -119,7 +123,8 @@ export const components: PCComponent[] = [
     icon: "❄️",
     color: "linear-gradient(135deg, #22d3ee 0%, #0284c7 100%)",
     description:
-      "The Arctic Liquid Freezer III 360 is an all-in-one liquid cooler with a 360mm radiator and three 120mm PWM fans. Its high-performance pump and dense fan array keep even the most demanding CPUs cool and quiet.",
+      `Per quanto il Ryzen 7 7800x3D sia tranquillissimo in termini di temperature e consumi, a differenza dei fornetti di Intel, ho comunque optato per un dissipatore che reggesse il livello della build e che tenesse a bada perennemente la CPU
+       Questo AIO raffredda in modo eccellente grazie a 3 ventole da 120mm montate sul suo radiatore a liquido da 360x120 mm, con uno spessore di 38 mm che mi ha reso le cose difficili in fase di assemblaggio, ma questo lo lascio per dopo.`,
     specs: [
       { key: "Grandezza", value: "360 mm" },
       { key: "ventole", value: "3× 120mm PWM" },
@@ -139,7 +144,9 @@ export const components: PCComponent[] = [
     icon: "⚡",
     color: "linear-gradient(135deg, #facc15 0%, #d97706 100%)",
     description:
-      "The MSI MPG A850G is a fully modular ATX 3.0 power supply with an 850W output and 80 Plus Gold certification. It includes a native PCIe 5.0 12VHPWR connector for next-gen GPUs, ensuring clean and reliable power delivery.",
+    `Non è molto condivisa questa idea, ma per me questo componente è quasi importante quanto la CPU, senza di questo il PC non si accende nemmeno in quanto fornisce l'energia a tutto il sistema, e deve garantirne una certa quantità minima con stabilità.
+     Gli alimentatori possono avere diverse certificazioni, ho optato per una fascia alta, cioè la 80 Plus Gold, perchè alla fine dei giochi, se salta la PSU, il PC le viene dietro, e preferirei evitarlo.
+     Oltretutto offre Protezione da Sovracorrente (OCP) e Transient Voltage Suppressors (TVS), un designi completamente modulare che mi ha aiutato in assemblaggio, ma anche questo, lo lascio per dopo.`,  
     specs: [
       { key: "wattaggio", value: "850 W" },
       { key: "classe di efficienza", value: "80 Plus Gold" },
@@ -159,7 +166,9 @@ export const components: PCComponent[] = [
     icon: "💿",
     color: "linear-gradient(135deg, #4ade80 0%, #059669 100%)",
     description:
-      "The WD Black SN850X is a PCIe Gen 4 NVMe SSD optimized for gaming. With sequential read speeds up to 7,300 MB/s it virtually eliminates load times and DirectStorage compatible for next-gen game streaming.",
+    `L'SSD è la memoria a lungo termine del PC, ci si intalla tutto: il sistema operativo, gli applicativi, i giochi, i file... tutto. 
+     Ho optato per questo modello date le prestazioni elevate grazie all'interfaccia PCIe Gen 4 che mi aiuta a ridurre i tempi di molti processi stando dietro al processore.
+     Oltretutto è dotato di 1 TB di spazio, più che sufficiente per il mio utilizzo.`,
     specs: [
       { key: "interfaccia", value: "PCIe Gen 4 NVMe" },
       { key: "capienza", value: "1 TB" },
@@ -180,8 +189,9 @@ export const components: PCComponent[] = [
     icon: "🌀",
     color: "linear-gradient(135deg, #f472b6 0%, #c026d3 100%)",
     description:
-      "The Thermalright TL-C12CS RGB fans deliver exceptional airflow and static pressure performance wrapped in a stunning full-addressable RGB lighting ring. This pack of 6 fans ensures your case stays cool with a beautiful light show.",
-    specs: [
+      `Sono fondamentali per non soffocare il PC nel suo stesso calore, permettono di far circolare l'aria fresca all'interno del case e di eliminare quella calda generata dai componenti.
+       La thermalright è considerata spesso la salvezza dei PC assembler: offre prestazioni elevata ella metà del prezzo dei competitors, motivo per il quale la scielta è stata semplice.`,
+      specs: [
       { key: "formato", value: "120 mm" },
       { key: "numero", value: "7×" },
       { key: "velocità", value: "500–1550 RPM" },
@@ -199,8 +209,10 @@ export const components: PCComponent[] = [
     icon: "🖥️",
     color: "linear-gradient(135deg, #94a3b8 0%, #52525b 100%)",
     description:
-      "The Antec C8 is a premium mid-tower case with a full-mesh front panel and tempered glass side panel. Its spacious interior supports up to 420mm radiators, E-ATX motherboards, and long GPUs while maintaining optimal airflow.",
-    specs: [
+      `Sono molto belli tutti i componenti, ma in aria non si può fissare nulla, quindi serve un alloggiamento che riesca a contenerli e garantirne il flusso d'aria necessario proteggendoli dalla polvere con filtri: il Case.
+       Questo modello in particolare mi ha permesso di incastrare tutto con "facilità", offre molto spazio utile all'assemblaggio, alla gestione dei cavi e al flussio d'aria.
+       Mi ha colpito per il design sobrio, ma tamarro nei suoi pannelli in vetro temperato che mi permettonjo di vedere gli organi della bestia.`,
+      specs: [
       { key: "formato", value: "Full tower" },
       { key: "materiale", value: "acciaio + vetro temperato" },
       { key: "schede madri supportate", value: "E-ATX / ATX / mATX" },

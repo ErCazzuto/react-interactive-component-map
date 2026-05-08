@@ -66,7 +66,7 @@ return (
               <h3 className="text-md font-semibold uppercase tracking-widest text-white/40 mb-3">
                 Generalità e funzione
               </h3>
-              <p className="text-md text-white/70 leading-relaxed">
+              <p className="text-md text-white/70 leading-relaxed whitespace-pre-line">
                 {component.description}
               </p>
             </div>
