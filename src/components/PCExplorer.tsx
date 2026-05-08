@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import SidePanel from "./SidePanel";
 import PopUpDescription from "./PopUpDescription";
 import { components, PCComponent } from "../data/components";
@@ -7,7 +7,6 @@ import MediaQuery from 'react-responsive';
 export default function PCExplorer() {
   const [selected, setSelected] = useState<PCComponent | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
 
   const handleSelect = (comp: PCComponent) => {
     if (selected?.id === comp.id) {
@@ -17,35 +16,8 @@ export default function PCExplorer() {
     }
   };
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          // Se il componente non è più visibile e c'è un pannello aperto, chiudilo
-          if (entry.intersectionRatio === 0 && selected) {
-            setSelected(null);
-          }
-        });
-      },
-      {
-        threshold: 0, // Trigger quando non è più visibile
-        rootMargin: "-50px 0px -50px 0px" // Margine per evitare trigger troppo precoce
-      }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, [selected]);
-
   return (
-    <div ref={containerRef} className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-7xl mx-auto">
+    <div className="relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-7xl mx-auto">
       <div className="flex flex-col justify-center relative">
         {/* Image container */}
         <div
