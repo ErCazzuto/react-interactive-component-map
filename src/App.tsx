@@ -7,10 +7,10 @@ export default function App() {
       <section className="min-h-40 p-8">
         {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mt-8 mb-20 text-center"> <strong className="text-6xl text-[#4ade80]">Assemblaggio di un sogno</strong> </h2>
+          <h2 className="text-3xl font-bold mt-8 mb-20 text-center"> <strong className="text-6xl text-[#4ade80]">L'assemblaggio di un sogno</strong> </h2>
 
           {/* Esempio di casella di testo */}
-          <div className="bg-gray-1000 p-6 rounded-lg mb-8">
+          <div className="bg-gray-9000 p-6 rounded-lg mb-8">
 
             <p className="text-gray-300 leading-relaxed">
               Nell' estate del 2024 sono, dopo anni che lo ambivo, finalmente riuscito ad assemblare il mio primo PC fisso. <br></br>
@@ -25,7 +25,7 @@ export default function App() {
       {/* Sezione con immagine */}
       <section className="p-8">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-0">
+          <div className="bg-gray-9000 p-6 rounded-lg mb-0">
             <h3 className="text-xl font-semibold mb-0">Scopri i dettagli cliccando su ogni componente!</h3>
             <div className="flex flex-col md:flex-row gap-6">
               
@@ -39,31 +39,15 @@ export default function App() {
         <PCExplorer />
       </section>
 
-      {/* Sezione con immagine */}
-      <section className="p-8">
+      
+      <section className="min-h-20 p-8">
+        {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2 className="text-3xl font-bold mt-8 mb-1 text-center"> <strong className="text-4xl text-[#4ade80]">Fase 1: la ricerca dei componenti</strong> </h2>
         </div>
       </section>
 
+      
       {/* Sezione con immagine */}
       <section className="p-8">
         <div className="max-w-4xl mx-auto">
@@ -80,158 +64,8 @@ export default function App() {
                 </p>
               </div>
               <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Sezione con immagine */}
-      <section className="p-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-1000 p-6 rounded-lg mb-2">
-            <h3 className="text-xl font-semibold mb-4">Ricerca dei componenti</h3>
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="flex-1">
-                <p className="text-gray-300 leading-relaxed mb-4">
-                  → immagini + storia <br></br>
-                  → compatibilità <br></br>
-                  → specifiche <br></br>
-                </p>
-                <p className="text-gray-300 leading-relaxed">
-                </p>
-              </div>
-              <div className="flex-1">
-                <div className="bg-gray-800 h-48 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Immagine qui</span>
+                <div className="bg-gray-1000 h-60 rounded-lg flex items-center justify-center">
+                  <img src="/cpu.jpg" alt="Ricerca componenti" className="h-full object-contain" />
                 </div>
               </div>
             </div>
