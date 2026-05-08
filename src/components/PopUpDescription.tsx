@@ -21,7 +21,7 @@ return (
     <div
       ref={panelRef}
       className={`
-        relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-4x1 mx-auto box-border
+        relative w-full h-3/4 flex flex-col overflow-hidden bg-black max-w-7xl mx-auto box-border
         flex flex-col justify-center px-0 mb-6
         bg-[#13161f] border border-white/10
         shadow-2xl shadow-black/80
