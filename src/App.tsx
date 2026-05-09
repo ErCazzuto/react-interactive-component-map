@@ -64,7 +64,7 @@ export default function App() {
                 <img
                   src="/cpu.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover"
                 />
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function App() {
                 <img
                   src="/gpu.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover"
                 />
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function App() {
                 <img
                   src="/ram.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function App() {
                 <img
                   src="/schedamadre.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -147,20 +147,20 @@ export default function App() {
       {/* case */}
       <section className="p-8">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-colmd:flex-row items-center gap-6">
+          <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex-1">
               <p className="text-white-30 leading-relaxed mb-4">
                 Sapendo che sarebbe stata un'ardua sfida ho iniziato poi a cercare un case capace di ospitare tutti i componenti e che mi piacesse esteticamente. <br />
                 Tutte le opzioni che ho visto sono veramente troppe per descriverle qui, mi servirebbe un altro sito. <br />
                 Insomma, alla fine ho optato per l' Antec C8, un modello doppia camera, design pulito, sobrio, con enorme spazio interno, e possibilità di montare al suo interno molteplici ventole.
-              </p>
+                </p>
             </div>
             <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
               <div className="w-full h-120 overflow-hidden rounded-lg">
                 <img
                   src="/case.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function App() {
                 <img
                   src="/ssd.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -201,11 +201,11 @@ export default function App() {
               </p>
             </div>
             <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
-              <div className="w-full h-100 overflow-hidden rounded-lg">
+              <div className="w-full h-110 overflow-hidden rounded-lg">
                 <img
                   src="/radiatore.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -222,7 +222,7 @@ export default function App() {
                 <img
                   src="/psu.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function App() {
                 <img
                   src="/fans.jpg"
                   alt="Ricerca componenti"
-                  className="w-6xl pr-1 h-full object-cover"
+                  className="w-6xl h-full object-cover  "
                 />
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             Inanzitutto....
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase1.jpg"
                   alt="fase 1"
@@ -297,7 +297,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             Inanzitutto....
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase2.jpg"
                   alt="fase 2"
@@ -317,7 +317,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             Inanzitutto....
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase3.jpg"
                   alt="fase 3"
@@ -337,7 +337,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             purtroppo, è arrivato il momento
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase4.jpg"
                   alt="fase 4"
@@ -357,7 +357,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             E dopo il terrore di prima, finalmente, è l'ora di montare la GPU!
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase5.jpg"
                   alt="fase 5"
@@ -377,7 +377,7 @@ export default function App() {
           <div className="text-white-30 leading-relaxed mb-8">
             Inanzitutto....
           </div>
-          <div className="flex items-centered">
+          <div className="flex justify-center">
           <img
                   src="/fase6.jpg"
                   alt="fase 6"
@@ -391,7 +391,7 @@ export default function App() {
         {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mt-8 mb-10 text-center"> <strong className="text-5xl text-[#4ade80]">Fase 3: la configurazione</strong> </h2>
-        </div>
+          </div>
       </section>
       
       {/*win11*/}
@@ -399,7 +399,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center">
           </div>
-          <div className="text-white-30 leading-relaxed mb-8">
+          <div className="text-white-30 leading-relaxed mb-10">
             È praticamente fatta... il pc è montato... al primo avvio non è esploso... non ha fatto saltare la luce in casa... sembra tutto perfetto, e ora bisogna solo installare il sistema operativo: il mio caro e odiato Windows 11. <br>
             </br>
             L'operazione non è difficie: <br>
@@ -423,7 +423,7 @@ export default function App() {
             <img
               src="/win11.jpg"
               alt="win11"
-              className="w-6xl h-full object-cover"
+              className="w-6xl h-full object-cover  "
             />
           </div>
         </div>
@@ -453,18 +453,18 @@ export default function App() {
             - lan<br>
             </br>
           </div>
-          <div className="mb-15 flex justify-center">
+          <div className="mb-10 flex justify-center">
           <img
                   src="/driver.jpg"
                   alt="driver"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
           <div className="flex justify-center">
           <img
                   src="/cartella.jpg"
                   alt="cartella"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
         </div>
@@ -480,18 +480,18 @@ export default function App() {
             </br>
             Quest'unico software mi permette di controllare tutto ciò che riguarda la scheda video e il processore, una meraviglia insomma, contiene impostazioni avanzate del monitor e offre molti servizi come il controllo in tempo reale di consumi, prestazioni e temperature e molto altro.
           </div>
-          <div className="mb-15 flex justify-center">
+          <div className="mb-10 flex justify-center">
           <img
                   src="/adrena.jpg"
                   alt="adrenaline"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
           <div className="flex justify-center">
           <img
                   src="/adrenal.jpg"
                   alt="adrenaline"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
         </div>
@@ -507,18 +507,18 @@ export default function App() {
             </br>
             È un software stranamente completo e utile di proprietà gigabyte, mi permette tutt'ora di controllare le proprietà come frequenze, overclock o undervolt, dei diversi componenti e anche le luci RGB delle ventole, delle RAM e della scheda video, contiene inoltre una sezione dedicata agli aggiornamenti dei driver e del bios, davvero utile.
           </div>
-          <div className="mb-15 flex justify-center">
+          <div className="mb-10 flex justify-center">
           <img
                   src="/gcc.jpg"
                   alt="gcc"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
-          <div className="flex justify-center">
+          <div className=" flex justify-center">
           <img
                   src="/gcc2.jpg"
                   alt="gcc2"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
         </div>
@@ -539,7 +539,7 @@ export default function App() {
           <img
                   src="/expo.jpg"
                   alt="expo"
-                  className="w-6xl h-full object-cover"
+                  className="w-6xl h-full object-cover  "
           />
           </div>
         </div>
