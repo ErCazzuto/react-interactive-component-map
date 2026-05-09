@@ -248,7 +248,7 @@ export default function App() {
               </p>
             </div>
             <div className="w-full md:w-[40%] lg:w-[40%] ml-auto">
-              <div className="w-full h-100 overflow-hidden rounded-lg">
+              <div className="w-full h-120 overflow-hidden rounded-lg">
                 <img
                   src="/fans.jpg"
                   alt="Ricerca componenti"
@@ -263,7 +263,7 @@ export default function App() {
       <section className="min-h-20 p-8">
         {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mt-8 mb-1 text-center"> <strong className="text-4xl text-[#4ade80]">Fase 2: l'assemblaggio</strong> </h2>
+          <h2 className="text-3xl font-bold mt-8 mb-10 text-center"> <strong className="text-4xl text-[#4ade80]">Fase 2: l'assemblaggio</strong> </h2>
         </div>
       </section>
 
