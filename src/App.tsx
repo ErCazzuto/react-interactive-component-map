@@ -387,6 +387,15 @@ export default function App() {
         </div>
       </section>
 
+      <section className="min-h-20 p-8">
+        {/* Qui puoi aggiungere caselle di testo e immagini */}
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mt-8 mb-10 text-center"> <strong className="text-5xl text-[#4ade80]">Fase 3: la configurazione</strong> </h2>
+        </div>
+      </section>
+      
+      
+
     </div>
   );
 }
