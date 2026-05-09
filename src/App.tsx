@@ -43,7 +43,7 @@ export default function App() {
       <section className="min-h-20 p-8">
         {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mt-8 mb-1 text-center"> <strong className="text-4xl text-[#4ade80]">Fase 1: la ricerca dei componenti</strong> </h2>
+          <h2 className="text-3xl font-bold mt-8 mb-1 text-center"> <strong className="text-5xl text-[#4ade80]">Fase 1: la ricerca dei componenti</strong> </h2>
         </div>
       </section>
 
@@ -183,7 +183,7 @@ export default function App() {
             </div>
             <div className="flex-1">
               <p className="text-white-30 leading-relaxed p-10 mb-4">
-                Era poi necessario scegliere dove l'ssd, il mio obiettivo era trovare 1 Tb di spazio, a buon prezzo, con velocità di scrittura e lettura elevate: il WD_black SN 850x mi ha dato esattamente ciò che cercavo grazie soprattutto al prezzo vantaggioso.
+                Era poi necessario scegliere l'ssd, il mio obiettivo era trovare 1 Tb di spazio, a buon prezzo, con velocità di scrittura e lettura elevate: il WD_black SN 850x mi ha dato esattamente ciò che cercavo grazie soprattutto al prezzo vantaggioso.
               </p>
             </div>
           </div>
@@ -263,7 +263,7 @@ export default function App() {
       <section className="min-h-20 p-8">
         {/* Qui puoi aggiungere caselle di testo e immagini */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mt-8 mb-10 text-center"> <strong className="text-4xl text-[#4ade80]">Fase 2: l'assemblaggio</strong> </h2>
+          <h2 className="text-3xl font-bold mt-8 mb-10 text-center"> <strong className="text-5xl text-[#4ade80]">Fase 2: l'assemblaggio</strong> </h2>
         </div>
       </section>
 
