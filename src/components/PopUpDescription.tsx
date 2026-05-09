@@ -82,7 +82,15 @@ return (
                     key={i}
                     className="flex items-center justify-between py-2 border-b border-white/5 last:border-0"
                   >
-                    <span className="text-xs text-white/40 font-medium uppercase tracking-wide">
+                    <span
+                      className="text-xs font-medium uppercase tracking-wide"
+                      style={{
+                        backgroundImage: component.color,
+                        backgroundClip: "text",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}
+                    >
                       {spec.key}
                     </span>
                     <span className="text-xs font-semibold text-white/90 text-right max-w-[55%]">

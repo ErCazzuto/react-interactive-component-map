@@ -21,7 +21,7 @@ export const components: PCComponent[] = [
     name: "AMD Ryzen 7 7800X3D",
     category: "Processore",
     icon: "🧠",
-    color: "linear-gradient(135deg, #fb923c 0%, #ef4444 100%)",
+    color: "linear-gradient(135deg, #ff7300 0%, #ef4444 100%)",
     description:
      `Si tratta del cervello del PC, senza di lui... sarebbe tutto un soprammobile.
       Il Ryzen 7 7800x3d è una vera e propria bestia di processore, prestazioni elevate, larga cache che vanta la tecnologia 3D V-Cache, cioè una cache L3 aggiuntiva impilata verticalmente per ottenere prestazioni eccellenti.
@@ -72,7 +72,7 @@ export const components: PCComponent[] = [
     name: "Gigabyte Radeon RX 7900 XT Gaming OC",
     category: "Scheda grafica",
     icon: "🎮",
-    color: "linear-gradient(135deg, #f87171 0%, #db2777 100%)",
+    color: "linear-gradient(135deg, #ff0000 0%, #850000 100%)",
     description:
       `Il componente senza il quale il monitor resterebbe nero, è il cuore pulsante di ogni PC di fascia alta, soprattutto in ambito gaming.
        La RX 7900 XT è una scheda grafica di fascia alta con una larga memoria VRAM, un'ampia larghezza di banda e un boost clock fino a 2500 MHz, offre prestazioni eccezionali a risoluzioni elevate.
@@ -207,7 +207,7 @@ export const components: PCComponent[] = [
     name: "Antec C8",
     category: "case",
     icon: "🖥️",
-    color: "linear-gradient(135deg, #94a3b8 0%, #52525b 100%)",
+    color: "linear-gradient(135deg, #9dff41 0%, #7dfa43 100%)",
     description:
       `Sono molto belli tutti i componenti, ma in aria non si può fissare nulla, quindi serve un alloggiamento che riesca a contenerli e garantirne il flusso d'aria necessario proteggendoli dalla polvere con filtri: il Case.
        Questo modello in particolare mi ha permesso di incastrare tutto con "facilità", offre molto spazio utile all'assemblaggio, alla gestione dei cavi e al flussio d'aria.
