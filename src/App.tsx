@@ -25,7 +25,7 @@ export default function App() {
       {/* inizio */}
       <section className="p-8">
         <div className="max-w-7xl mx-auto">
-          <div className="bg-white-1000 p-6 rounded-lg mb-0 rounded-3xl border-2 border-purple-500 bg-white/10">
+          <div className="bg-white-1000 p-6 rounded-lg mb-0 rounded-3xl border-2 border-blue-400 bg-white/10">
             <h3 className="text-xl font-semibold mb-0">Scopri i dettagli cliccando su ogni componente!</h3>
             <div className="flex flex-col md:flex-row gap-6">
               
@@ -60,7 +60,7 @@ export default function App() {
                 La scelta iniziale vergeva verso il Ryzen 5 7600x, un processore di fascia media e di tutto rispetto, sono poi passato al Ryzen 7 7700x, prestazioni maggiori per un prezzo non troppo maggiore, e infine, ho ringraziato il cielo per il momento estremamente favorevole in termini di prezzi e ho fatto un salto di qualità verso il Ryzen 7 7800x3d, per farmi capire: fino a pochi mesi dopo, con l'uscita del R7 9800x3d, era il MIGLIOR processore da gaming e rendering!
               </p>
             </div>
-            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/cpu.jpg"
                   alt="Ricerca componenti"
@@ -75,7 +75,7 @@ export default function App() {
       <section className="p-8">
         <div className="max-w-7xl mx-auto rounded-3xl border-2 border bg-white/10">
           <div className="flex flex-col md:flex-row items-center gap-6 ml-3">
-            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/gpu.jpg"
                   alt="Ricerca componenti"
@@ -107,7 +107,7 @@ export default function App() {
                 Per quanto riguarda le RAM, la scelta è stata piuttosto semplice: 2 banchi DDR5 da 16Gb l'uno, 6000 MHz, CL30. Pulito pulito e ho optato per lo sweet spot per un prezzo onesto.
               </p>
             </div>
-            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/ram.jpg"
                   alt="Ricerca componenti"
@@ -122,7 +122,7 @@ export default function App() {
       <section className="p-8">
         <div className="max-w-7xl mx-auto rounded-3xl border-2 border bg-white/10">
           <div className="flex flex-col md:flex-row items-center gap-6 ml-3">
-            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/schedamadre.jpg"
                   alt="Ricerca componenti"
@@ -152,7 +152,7 @@ export default function App() {
                 Insomma, alla fine ho optato per l' Antec C8, un modello doppia camera, design pulito, sobrio, con enorme spazio interno, e possibilità di montare al suo interno molteplici ventole.  
               </p>
             </div>
-            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 overflow-hidden bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 overflow-hidden bg-black">
               <img
                   src="/case.jpg"
                   alt="Ricerca componenti"
@@ -167,7 +167,7 @@ export default function App() {
       <section className="p-8">
         <div className="max-w-7xl mx-auto rounded-3xl border-2 border bg-white/10">
           <div className="flex flex-col md:flex-row items-center gap-6 ml-3">
-            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/ssd.jpg"
                   alt="Ricerca componenti"
@@ -195,7 +195,7 @@ export default function App() {
                 La scelta vergeva su thermalright, una garanzia, ma poi, rassegnato al fatto di non essere fortunato per quanto riguarda le scorte, ho scelto un modello Arctic, più precisamente il Freezer 360 iii, prestazioni effettivamente migliori per un prezzo leggermente maggiore, poteva andarmi peggio.
               </p>
             </div>
-            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/radiatore.jpg"
                   alt="Ricerca componenti"
@@ -210,7 +210,7 @@ export default function App() {
       <section className="p-8">
         <div className="max-w-7xl mx-auto rounded-3xl border-2 border bg-white/10">
           <div className="flex flex-col md:flex-row items-center gap-6 ml-3">
-        <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+        <div className="w-full md:w-[40%] lg:w-[40%] p-3 mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/psu.jpg"
                   alt="Ricerca componenti"
@@ -240,7 +240,7 @@ export default function App() {
                 Il case scelto non include alcuna ventola, quindi mi serviva una soluzione, la convenienza mi ha portato a scegliere ventole da 120mm, lo standard, almeno per queste sono riuscito ad approfittare di thermalright: 2 kit da 3 ventole e 1 singola.
               </p>
             </div>
-            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-purple-500 bg-black">
+            <div className="w-full md:w-[40%] lg:w-[40%] mx-3 mt-3 mb-3 ml-auto rounded-3xl border-3 border-blue-400 bg-black">
               <img
                   src="/fans.jpg"
                   alt="Ricerca componenti"
@@ -415,7 +415,7 @@ export default function App() {
             <img
               src="/win11.jpg"
               alt="win11"
-              className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+              className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
             />
           </div>
         </div>
@@ -450,14 +450,14 @@ export default function App() {
           <img
                   src="/driver.jpg"
                   alt="driver"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
           <div className="flex justify-center mb-10">
           <img
                   src="/cartella.jpg"
                   alt="cartella"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
         </div>
@@ -478,14 +478,14 @@ export default function App() {
           <img
                   src="/adrena.jpg"
                   alt="adrenaline"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
           <div className="flex justify-center mb-10">
           <img
                   src="/adrenal.jpg"
                   alt="adrenaline"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
         </div>
@@ -506,14 +506,14 @@ export default function App() {
           <img
                   src="/gcc.jpg"
                   alt="gcc"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500"
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400"
           />
           </div>
           <div className=" flex justify-center mb-10">
           <img
                   src="/gcc2.jpg"
                   alt="gcc2"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
         </div>
@@ -535,7 +535,7 @@ export default function App() {
           <img
                   src="/expo.jpg"
                   alt="expo"
-                  className="w-6xl h-full object-cover rounded-3xl border-3 border-purple-500 "
+                  className="w-6xl h-full object-cover rounded-3xl border-3 border-blue-400 "
           />
           </div>
         </div>
